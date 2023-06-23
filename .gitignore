@@ -1,0 +1,10 @@
+# Project exclude paths
+/out/
+*.iml
+.idea
+out
+.idea/
+/redBlackTree.iml
+/.gitignore
+/redBlackTree.iml
+!/redBlackTree.iml
