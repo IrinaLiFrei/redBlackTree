@@ -34,6 +34,7 @@ class Tree{
                     node.right.color = Color.RED;
                 }else{
                     insert(node.right, value);
+                    node.right = balance(node.right);
                 }
             }else{
                 if(node.left == null){
@@ -42,6 +43,7 @@ class Tree{
                     node.left.color = Color.RED;
                 }else{
                     insert(node.left, value);
+                    node.left = balance(node.left);
                 }
             }
         }
